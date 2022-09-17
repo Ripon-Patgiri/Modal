@@ -6,3 +6,36 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+    background: url(./bgimg.jpg) no-repeat center center/cover;
+    position: relative;
+    height: 100vh;
+} 
+
+#open-btn {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    width: 350px;
+    height: 80px;
+    font-size: 1.3rem;
+    background: transparent;
+    border: 2px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 0 10px;
+    transition: 0.2s;
+}
+
+#open-btn:hover {
+    box-shadow: 8px 8px 15px;
+}
+
+#open-btn:active {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 8px 8px 15px white;
+}
